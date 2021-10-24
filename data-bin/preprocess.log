@@ -1,0 +1,14 @@
+Namespace(no_progress_bar=False, log_interval=100, log_format=None, tensorboard_logdir=None, seed=1, cpu=False, tpu=False, bf16=False, memory_efficient_bf16=False, fp16=False, memory_efficient_fp16=False, fp16_no_flatten_grads=False, fp16_init_scale=128, fp16_scale_window=None, fp16_scale_tolerance=0.0, min_loss_scale=0.0001, threshold_loss_scale=None, user_dir=None, empty_cache_freq=0, all_gather_list_size=16384, model_parallel_size=1, checkpoint_suffix='', checkpoint_shard_count=1, quantization_config_path=None, profile=False, criterion='cross_entropy', tokenizer='space', bpe=None, optimizer=None, lr_scheduler='fixed', scoring='bleu', task='translation', source_lang='ice.g', target_lang='ice.p', trainpref='train', validpref='dev', testpref='test', align_suffix=None, destdir='data-bin', thresholdtgt=2, thresholdsrc=2, tgtdict=None, srcdict=None, nwordstgt=-1, nwordssrc=-1, alignfile=None, dataset_impl='mmap', joined_dictionary=False, only_source=False, padding_factor=8, workers=1)
+[ice.g] Dictionary: 40 types
+[ice.g] train.ice.g: 800 sents, 5242 tokens, 0.0191% replaced by <unk>
+[ice.g] Dictionary: 40 types
+[ice.g] dev.ice.g: 800 sents, 5242 tokens, 0.0191% replaced by <unk>
+[ice.g] Dictionary: 40 types
+[ice.g] test.ice.g: 800 sents, 5242 tokens, 0.0191% replaced by <unk>
+[ice.p] Dictionary: 64 types
+[ice.p] train.ice.p: 800 sents, 5376 tokens, 0.0558% replaced by <unk>
+[ice.p] Dictionary: 64 types
+[ice.p] dev.ice.p: 800 sents, 5376 tokens, 0.0558% replaced by <unk>
+[ice.p] Dictionary: 64 types
+[ice.p] test.ice.p: 800 sents, 5376 tokens, 0.0558% replaced by <unk>
+Wrote preprocessed data to data-bin
