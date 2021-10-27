@@ -27,9 +27,3 @@ cmd = """ fairseq-train \
 
 run(cmd, shell=True)  
 
-'''
-    --decoder-output-dim 128 \
-    --required-batch-size-multiple 5 
-'''
-
-
